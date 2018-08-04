@@ -1,0 +1,17 @@
+# view res/layout/news_title_frag.xml #generated:6
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.example.fragmentbestpractice.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.example.fragmentbestpractice.NewsContentActivity { <init>(...); }
+
+# view res/layout/news_content.xml #generated:6
+# view sw400dp-v13/res/layout-sw400dp-v13/main.xml #generated:19
+-keep class com.example.fragmentbestpractice.NewsContentFragment { <init>(...); }
+
+# view res/layout/main.xml #generated:6
+# view sw400dp-v13/res/layout-sw400dp-v13/main.xml #generated:6
+-keep class com.example.fragmentbestpractice.NewsTitleFragment { <init>(...); }
+
